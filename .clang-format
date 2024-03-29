@@ -28,7 +28,7 @@ BraceWrapping:
   BeforeElse: false
   BeforeWhile: false
   IndentBraces: false
-BreakAfterAttributes: Never
+BreakAfterAttributes: Always
 BreakBeforeBinaryOperators: None
 BreakBeforeInlineASMColon: OnlyMultiline
 BreakBeforeTernaryOperators: false

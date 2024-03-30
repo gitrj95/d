@@ -49,8 +49,8 @@ MaxEmptyLinesToKeep: 1
 PointerAlignment: Right
 QualifierAlignment: Custom
 QualifierOrder: [ 'static', 'inline', 'constexpr', 'type', 'const', 'volatile', 'restrict' ]
-ReflowComments: false    # let author
-RemoveParentheses: Leave # hairy with macros
+ReflowComments: false    # Let author
+RemoveParentheses: Leave # Hairy with macros
 RemoveSemicolon: true
 SortIncludes: CaseInsensitive
 SpaceAfterCStyleCast: false

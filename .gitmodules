@@ -28,3 +28,15 @@
 [submodule "ply"]
 	path = ply
 	url = https://github.com/iovisor/ply.git
+[submodule "bcc"]
+	path = bcc
+	url = https://github.com/iovisor/bcc.git
+[submodule "cns-sysjitter"]
+	path = cns-sysjitter
+	url = https://github.com/Xilinx-CNS/cns-sysjitter.git
+[submodule "cns-sfnettest"]
+	path = cns-sfnettest
+	url = https://github.com/Xilinx-CNS/cns-sfnettest.git
+[submodule "magic-trace"]
+	path = magic-trace
+	url = https://github.com/janestreet/magic-trace.git

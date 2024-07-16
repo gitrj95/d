@@ -4,3 +4,7 @@
  'org-babel-load-languages
  '((C . t)
    (emacs-lisp . t)))
+
+(use-package slime
+  :init
+  (setq inferior-lisp-program "sbcl"))

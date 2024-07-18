@@ -8,3 +8,5 @@
 (use-package slime
   :init
   (setq inferior-lisp-program "sbcl"))
+
+(use-package dyalog-mode)

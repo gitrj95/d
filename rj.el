@@ -5,6 +5,11 @@
  '((C . t)
    (emacs-lisp . t)))
 
+(require 'ox-man)
+(require 'ox-texinfo)
+
+(use-package disaster)
+
 (use-package slime
   :init
   (setq inferior-lisp-program "sbcl"))

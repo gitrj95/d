@@ -6,9 +6,11 @@
    (emacs-lisp . t)))
 
 (require 'ox-man)
-(require 'ox-texinfo)
 
-(use-package disaster)
+(use-package disaster
+  :bind
+  (:map c-mode-map
+        ("C-c d" . disaster)))
 
 (use-package slime
   :init

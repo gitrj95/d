@@ -1,5 +1,7 @@
 ;;;; rj
 
+(setq-default gdb-many-windows t)
+
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((C . t)

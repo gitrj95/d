@@ -40,3 +40,6 @@
 [submodule "u-config"]
 	path = u-config
 	url = https://github.com/skeeto/u-config.git
+[submodule "PerfSpect"]
+	path = PerfSpect
+	url = https://github.com/intel/PerfSpect.git

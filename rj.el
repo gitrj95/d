@@ -9,13 +9,13 @@
 
 (require 'ox-man)
 
-(use-package disaster
-  :bind
-  (:map c-mode-map
-        ("C-c d" . disaster)))
+(use-package dyalog-mode)
 
 (use-package slime
   :init
   (setq inferior-lisp-program "sbcl"))
 
-(use-package dyalog-mode)
+(unless (package-installed-p 'objdump-disassemble)
+  (package-vc-install "https://github.com/abougouffa/objdump-disassemble"))
+(use-package objdump-disassemble
+  :bind ("C-c C-d" . objdump-disassemble-mode))

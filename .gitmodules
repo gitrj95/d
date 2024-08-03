@@ -37,3 +37,6 @@
 [submodule "magic-trace"]
 	path = magic-trace
 	url = https://github.com/janestreet/magic-trace.git
+[submodule "u-config"]
+	path = u-config
+	url = https://github.com/skeeto/u-config.git

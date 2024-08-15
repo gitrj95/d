@@ -43,3 +43,6 @@
 [submodule "PerfSpect"]
 	path = PerfSpect
 	url = https://github.com/intel/PerfSpect.git
+[submodule "cbmc"]
+	path = cbmc
+	url = https://github.com/diffblue/cbmc.git

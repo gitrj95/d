@@ -34,9 +34,6 @@
 [submodule "cns-sfnettest"]
 	path = cns-sfnettest
 	url = https://github.com/Xilinx-CNS/cns-sfnettest.git
-[submodule "magic-trace"]
-	path = magic-trace
-	url = https://github.com/janestreet/magic-trace.git
 [submodule "u-config"]
 	path = u-config
 	url = https://github.com/skeeto/u-config.git

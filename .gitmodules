@@ -13,9 +13,6 @@
 [submodule "FlameGraph"]
 	path = FlameGraph
 	url = https://github.com/brendangregg/FlameGraph.git
-[submodule "coz"]
-	path = coz
-	url = https://github.com/plasma-umass/coz.git
 [submodule "ply"]
 	path = ply
 	url = https://github.com/iovisor/ply.git

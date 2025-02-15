@@ -11,10 +11,6 @@
 
 (use-package dyalog-mode)
 
-(use-package slime
-  :init
-  (setq inferior-lisp-program "sbcl"))
-
 (unless (package-installed-p 'objdump-disassemble)
   (package-vc-install "https://github.com/abougouffa/objdump-disassemble"))
 (use-package objdump-disassemble

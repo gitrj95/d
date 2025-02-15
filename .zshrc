@@ -5,3 +5,6 @@
 # Visible bin
 mkdir -p $HOME/bin
 export PATH="$HOME/bin:$PATH"
+
+# Visible notes
+mkdir -p $HOME/notes

@@ -11,7 +11,9 @@
 
 (use-package dyalog-mode)
 
-(unless (package-installed-p 'objdump-disassemble)
-  (package-vc-install "https://github.com/abougouffa/objdump-disassemble"))
 (use-package objdump-disassemble
+  :vc (:url "https://github.com/abougouffa/objdump-disassemble"
+       :rev :newest)
   :bind ("C-c C-d" . objdump-disassemble-mode))
+
+(use-package rmsbolt)

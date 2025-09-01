@@ -28,3 +28,6 @@
 [submodule "librj"]
 	path = librj
 	url = https://github.com/gitrj95/librj.git
+[submodule "llvm"]
+	path = llvm-project
+	url = https://github.com/llvm/llvm-project.git
